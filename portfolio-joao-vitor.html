@@ -509,7 +509,7 @@
       draw: document.getElementById('score-draw')
     };
     const wins = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]];
-    let board = Array(9).fill('');
+    let board = Array(9).fill(''); let gameEpoch = 0;
     let active = true;
     let scores = { X: 0, O: 0, draw: 0 };
 
@@ -581,13 +581,13 @@
       active = false;
       render();
       statusEl.textContent = 'Vez do computador…';
-      window.setTimeout(() => {
+      const scheduledGame = gameEpoch; window.setTimeout(() => { if (scheduledGame !== gameEpoch) return;
         active = true;
         computerMove();
       }, 280);
     }
 
-    function newGame() {
+    function newGame() { gameEpoch += 1; gameEpoch += 1;
       board = Array(9).fill('');
       active = true;
       statusEl.textContent = 'Sua vez — escolha uma casa.';
