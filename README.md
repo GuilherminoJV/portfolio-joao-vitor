@@ -24,38 +24,31 @@ O portfólio reúne:
 
 ## Arquivo principal
 
-- `portfolio-joao-vitor.html` — página completa do portfólio, com estrutura, estilos, interações e retrato incorporado no próprio HTML.
+- `index.html` — página inicial do portfólio, com estrutura, estilos, interações e retrato incorporado no próprio HTML.
 
 ## Como visualizar localmente
 
 1. Baixe ou clone este repositório.
-2. Abra `portfolio-joao-vitor.html` diretamente no navegador.
+2. Abra `index.html` diretamente no navegador.
 
 Não é necessário instalar dependências, compilar arquivos nem configurar um backend.
 
 ## Status e publicação
 
-O código-fonte está hospedado neste repositório do GitHub. **Isso não significa que o site já esteja publicado pelo GitHub Pages**; a hospedagem do site é uma configuração separada.
+O código-fonte está hospedado neste repositório público do GitHub. **A publicação pelo GitHub Pages é uma configuração separada** e só estará concluída quando o Pages estiver habilitado e o deploy terminar.
 
-Para publicar o site, primeiro renomeie `portfolio-joao-vitor.html` para `index.html` e mantenha esse arquivo na raiz do repositório. Depois:
+Para publicar, acesse **Settings → Pages** no repositório. Em **Build and deployment**, selecione **Deploy from a branch**, escolha a branch `main` e a pasta `/(root)`, e salve. O arquivo `index.html` já está na raiz para servir como página inicial.
 
-1. Acesse **Settings → Pages** no repositório.
-2. Em **Build and deployment**, selecione **Deploy from a branch**.
-3. Escolha a branch `main` e a pasta `/(root)`.
-4. Salve e aguarde a conclusão da publicação.
-
-Após ativação e publicação bem-sucedidas, o endereço esperado será:
+Endereço esperado após a ativação e conclusão do deploy:
 
 `https://guilherminojv.github.io/portfolio-joao-vitor/`
-
-O endereço só ficará disponível depois que o GitHub Pages estiver configurado e o primeiro deploy terminar.
 
 ## Cuidados com o repositório
 
 - Mantenha a branch principal em um estado que represente a versão atual do portfólio.
 - Use mensagens de commit curtas e descritivas.
 - Não envie senhas, tokens, chaves de API nem dados privados de alunos ou clientes.
-- O HTML contém informações profissionais de contato e um retrato incorporado. Revise esses dados antes de alterar a visibilidade do repositório ou publicar o site.
+- O HTML inclui um retrato e informações profissionais de contato. Revise os dados expostos antes de publicar ou manter o repositório público.
 - O arquivo `.gitignore` exclui arquivos temporários comuns do macOS e do Windows.
 
 ## Direitos autorais e licença
