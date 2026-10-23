@@ -2,6 +2,8 @@
 
 Portfólio profissional desenvolvido com **HTML, CSS e JavaScript puro**, para apresentar minha trajetória, meus projetos e meu processo de aprendizagem em desenvolvimento de software, com foco em Backend.
 
+**Acesse o site publicado:** [guilherminojv.github.io/portfolio-joao-vitor](https://guilherminojv.github.io/portfolio-joao-vitor/)
+
 O site é estático e funciona diretamente no navegador. Não depende de bibliotecas externas, instalação de pacotes, servidor ou backend.
 
 ## Sobre o projeto
@@ -12,7 +14,7 @@ O portfólio reúne:
 - Projetos em destaque com links para seus repositórios no GitHub.
 - Seção que apresenta meu processo de desenvolvimento: entender, planejar, implementar e validar.
 - Laboratório interativo com Jogo da Velha, Batalha Naval e Pedra, Papel e Tesoura.
-- Currículo em PDF gerado no próprio navegador.
+- Currículo em PDF gerado no próprio navegador, sem exibir número de telefone.
 - Layout responsivo para diferentes tamanhos de tela e suporte à preferência por movimento reduzido.
 
 ## Tecnologias
@@ -21,27 +23,27 @@ O portfólio reúne:
 - **CSS3** — layout, responsividade e identidade visual.
 - **JavaScript** — interações, navegação entre projetos e jogos, e geração do currículo em PDF.
 - **Git e GitHub** — versionamento e hospedagem do código-fonte.
+- **GitHub Pages** — publicação do site estático.
 
 ## Arquivo principal
 
 - `index.html` — página inicial do portfólio, com estrutura, estilos, interações e retrato incorporado no próprio HTML.
 
-## Como visualizar localmente
+## Visualizar localmente
 
 1. Baixe ou clone este repositório.
 2. Abra `index.html` diretamente no navegador.
 
 Não é necessário instalar dependências, compilar arquivos nem configurar um backend.
 
-## Status e publicação
+## Publicação
 
-O código-fonte está hospedado neste repositório público do GitHub. **A publicação pelo GitHub Pages é uma configuração separada** e só estará concluída quando o Pages estiver habilitado e o deploy terminar.
+O portfólio está publicado pelo **GitHub Pages**, usando a branch `main` e a pasta raiz (`/(root)`). O arquivo `index.html` funciona como página inicial.
 
-Para publicar, acesse **Settings → Pages** no repositório. Em **Build and deployment**, selecione **Deploy from a branch**, escolha a branch `main` e a pasta `/(root)`, e salve. O arquivo `index.html` já está na raiz para servir como página inicial.
+- **Site:** https://guilherminojv.github.io/portfolio-joao-vitor/
+- **Repositório:** https://github.com/GuilherminoJV/portfolio-joao-vitor
 
-Endereço esperado após a ativação e conclusão do deploy:
-
-`https://guilherminojv.github.io/portfolio-joao-vitor/`
+As próximas alterações enviadas à branch `main` serão usadas pelo fluxo de publicação do GitHub Pages.
 
 ## Cuidados com o repositório
 
